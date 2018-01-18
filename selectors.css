@@ -17,3 +17,9 @@ header{
 #nav a{
     text-decoration: none;
 }
+span[href]{
+    color: purple;
+}
+span[class]{
+    color:gray;
+}
