@@ -17,9 +17,39 @@ header{
 #nav a{
     text-decoration: none;
 }
-span[href]{
+a.disabled{
     color: purple;
 }
-span[class]{
+.disabled{
     color:gray;
+}
+.active{
+    color: yellow;
+}
+/*section div:nth-of-type(5) {
+    color:red;
+}*/
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.red + h4 {
+    background-color: red;
+}
+.blue + h4 {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: 1px;
+}
+
+.promo{
+    color: gold;
+}
+
+footer{
+    height: 25px;
 }
